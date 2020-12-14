@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboards.BidderParticipateController">
+   <children>
+      <TableView fx:id="itemtable" layoutX="34.0" layoutY="26.0" prefHeight="218.0" prefWidth="574.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="img" prefWidth="131.20001220703125" text="Image" />
+            <TableColumn fx:id="name" prefWidth="167.99998474121094" text="Name" />
+            <TableColumn fx:id="startp" prefWidth="111.199951171875" text="Starting Price" />
+            <TableColumn fx:id="bidp" prefWidth="91.2000732421875" text="Bid Price" />
+        </columns>
+      </TableView>
+      <Button layoutX="247.0" layoutY="374.0" mnemonicParsing="false" onAction="#submitbid" prefHeight="46.0" prefWidth="150.0" text="Submit Bid Amount" />
+      <TextField fx:id="amount" layoutX="248.0" layoutY="309.0" prefHeight="38.0" prefWidth="149.0" promptText="Enter Bid Amount">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label fx:id="msg" layoutX="235.0" layoutY="258.0" prefHeight="38.0" prefWidth="230.0" text="Status" textFill="#ea0b0b">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
