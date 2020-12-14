@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+
+.button {
+	-fx-background-color: #1976D2;
+	-fx-text-fill: white;
+}
+
+.button:hover{
+	-fx-background-color: #689F38;
+}
