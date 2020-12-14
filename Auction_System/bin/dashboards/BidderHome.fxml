@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboards.BidderHomeController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="82.0" layoutY="119.0" prefHeight="30.0" prefWidth="424.0" text="To View Items click View Items button. " textFill="#f2610d">
+         <font>
+            <Font name="Comic Sans MS Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="82.0" layoutY="178.0" prefHeight="30.0" prefWidth="486.0" text="To Participate and Submit Bid Amount click Participate button." textFill="#f2610d">
+         <font>
+            <Font name="Comic Sans MS Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="113.0" layoutY="322.0" prefHeight="65.0" prefWidth="424.0" text="Thank You!" textFill="#0af006">
+         <font>
+            <Font name="Comic Sans MS Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="msg" alignment="CENTER" layoutX="154.0" layoutY="261.0" prefHeight="30.0" prefWidth="315.0" text="Updates" textFill="#0bafea">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

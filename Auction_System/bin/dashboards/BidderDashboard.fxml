@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboards.BidderDashboardController">
+   <children>
+      <VBox prefHeight="550.0" prefWidth="150.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="66.0" prefWidth="150.0" style="-fx-background-color: #1976D2;" text="Bidder">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#openhome" prefHeight="60.0" prefWidth="150.0" text="Home" />
+            <Button mnemonicParsing="false" onAction="#openviewitems" prefHeight="60.0" prefWidth="150.0" text="View Items" />
+            <Button mnemonicParsing="false" onAction="#openparticipate" prefHeight="60.0" prefWidth="150.0" text="Participate" />
+            <HBox prefHeight="244.0" prefWidth="150.0" />
+            <Button mnemonicParsing="false" onAction="#logout" prefHeight="60.0" prefWidth="150.0" text="Logout" />
+         </children>
+      </VBox>
+      <HBox layoutX="150.0" prefHeight="66.0" prefWidth="650.0" style="-fx-background-color: #1976D2;" />
+      <AnchorPane fx:id="holderpane" layoutX="150.0" layoutY="66.0" prefHeight="484.0" prefWidth="650.0">
+         <children>
+            <Label fx:id="welcome" alignment="CENTER" layoutX="155.0" layoutY="65.0" prefHeight="87.0" prefWidth="240.0" text="Welcome">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
