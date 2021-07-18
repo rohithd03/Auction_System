@@ -8,7 +8,7 @@ public class DBConnect {
 	private static DBConnect instance;
 	private String url = "jdbc:mysql://localhost:3306/oas";
 	private String user = "root";
-	private String password = "Rohith@03";
+	private String password = "Your Password";
 	private Connection con = null;
 	private String query = null;
 	private ArrayList<Object[]> list = null;
